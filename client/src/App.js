@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import "./App.css";
 
 const API = "https://rajat-job-tracker-api.onrender.com/api/companies";
 
@@ -49,7 +50,7 @@ function App() {
         Toggle Dark Mode 🌙
       </button>
 
-      <h1>🚀 Rajat's Job Tracker</h1>
+      <h1 className="title">🚀 Rajat's Job Tracker</h1>
 
       <div className="cards">
         <div className="card">
